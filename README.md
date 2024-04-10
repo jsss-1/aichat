@@ -20,7 +20,7 @@
 
 可以置顶删除修改添加对话，以及AI回复
 
-![v1](https://gitee.com/jsss-1/aichat/blob/master/image/v1.png)
+![v1](.\image\v1.png)
 
 
 
@@ -36,7 +36,7 @@
 
 
 
-![v2](https://gitee.com/jsss-1/aichat/blob/master/image/v2.png)
+![v2](.\image\v2.png)
 
 
 
@@ -50,7 +50,7 @@
 
 
 
-![v3](https://gitee.com/jsss-1/aichat/blob/master/image/v3.png)
+![v3](.\image\v3.png)
 
 # v4版本：多轮对话
 
@@ -62,7 +62,7 @@
 
 
 
-![v4](https://gitee.com/jsss-1/aichat/blob/master/image/v4.png)
+![v4](.\image\v4.png)
 
 
 
