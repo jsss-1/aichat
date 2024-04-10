@@ -1,0 +1,49 @@
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.button-container {
+    position: sticky;
+    top: 10px;
+    padding: 5px;
+    border: 15px solid #f6f6f6;
+}
+
+.tag-info{
+    flex: 1;
+    margin-left: 10px;
+    padding: 5px;
+    border: 15px solid #f6f6f6;
+}
+
+.info{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.button-container {
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.add-btn{
+    margin-right: auto;
+}

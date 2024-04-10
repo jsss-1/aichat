@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+
+		<title>两个进度条的实现</title>
+
+	</head>
+	<style>
+
+
+		html,body{
+            overflow-y: hidden; /*整体不动*/
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            overflow-y: hidden; /*整体不动*/
+
+        }
+
+        .content {
+            width: 75%;
+            margin-left: 45px;
+            margin-top: 10px;
+            height: 400px; /*设置高度，等高*/
+            overflow-y: scroll;
+        }
+
+        .sidebar {
+            display: flex;
+            width: 25%;
+            height: 400px; /*设置高度，等高*/
+            overflow-y: auto;
+        }
+	</style>
+
+	<body>
+
+		<div class="container">
+			<div class="sidebar">
+				<div class="tag-list" id="tag">
+
+				</div>
+
+			</div>
+
+			<div class="content">
+				<div class="message-container" id="message">
+
+					<div class="conversation-list">
+
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</body>
+
+	<script>
+        // 获取具有id为“tag”的元素
+        const tagList = document.getElementById('tag');
+
+        // 循环十次
+        for (let i = 0; i < 50; i++) {
+            const tagElement = document.createElement('div');
+            tagElement.textContent = 'tag'+i;
+            tagList.appendChild(tagElement);
+        }
+
+
+        // 获取具有id为“tag”的元素
+        const messageList = document.getElementById('message');
+
+        // 循环十次
+        for (let i = 0; i < 50; i++) {
+            const messageElement = document.createElement('div');
+            messageElement.textContent =  'message'+i;
+            messageList.appendChild(messageElement);
+        }
+
+	</script>
+
+</html>

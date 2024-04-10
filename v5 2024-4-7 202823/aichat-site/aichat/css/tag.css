@@ -1,0 +1,64 @@
+.tag {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.tag-btn{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    cursor: pointer;
+    margin-right: 5px; /* 添加右侧距离 */
+}
+
+.icon-btn {
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+
+
+.ptTag {
+    background-image: url('../img/ptTag.png');
+}
+
+.topTag {
+    background-image: url('../img/topTag.png');
+}
+
+.top-btn {
+    background-image: url('../img/top.png');
+}
+
+.notop-btn {
+    background-image: url('../img/notop.png');
+}
+
+.modify-btn {
+    background-image: url('../img/edit.png');
+}
+
+.delete-btn {
+    background-image: url('../img/delete.png');
+}
+
+.add-btn {
+    background-image: url('../img/add.png');
+}
+.search-btn {
+    background-image: url('../img/search.png');
+}
+
+
